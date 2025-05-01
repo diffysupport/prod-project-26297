@@ -18,8 +18,8 @@ basic:
         compare_with_fresh: production
 advanced:
     mask: ''
-    remove: ''
-    isolate: ''
+    remove: ".elementor-widget-slider_revolution\n.e-n-carousel.swiper\n.swiper-pagination"
+    isolate: .elementor-background-video-container
     delay: 15
     scroll: true
     headers:
