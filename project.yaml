@@ -26,7 +26,7 @@ advanced:
         - { header: '', value: '' }
     cookies: ''
     custom_js: ''
-    custom_css: ''
+    custom_css: ".menu-item .elementor-item:after {\n\tbackground-color: transparent !important;\n}"
     mock_content:
         - { selector: '', type: title }
     performance:
