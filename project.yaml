@@ -1,15 +1,14 @@
 basic:
     name: 'Recademics monitoring'
     breakpoints:
-        - 640
-        - 1024
-        - 1200
+        - 390
+        - 1920
     pages:
-        - 'https://recademics.com/'
-        - 'https://recademics.com/boating/'
-        - 'https://recademics.com/hunting/'
-        - 'https://recademics.com/hunting/nevada/'
-        - 'https://recademics.com/boating/texas/'
+        - 'https://recademics.com'
+        - 'https://recademics.com/boating'
+        - 'https://recademics.com/hunting'
+        - 'https://recademics.com/hunting/nevada'
+        - 'https://recademics.com/boating/texas'
     monitoring:
         days: {  }
         type: daily
@@ -28,7 +27,8 @@ advanced:
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content: ''
+    mock_content:
+        - { selector: '', type: title }
     performance:
         workers_production: 30
         workers_nonproduction: 10
