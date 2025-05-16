@@ -20,7 +20,7 @@ advanced:
     mask: ''
     remove: ".elementor-widget-slider_revolution\n.e-n-carousel.swiper\n.swiper-pagination"
     isolate: .elementor-background-video-container
-    delay: 40
+    delay: 60
     scroll: true
     headers:
         - { header: '', value: '' }
