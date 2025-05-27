@@ -17,9 +17,8 @@ basic:
         compare_with: last-production
         compare_with_fresh: production
 advanced:
-    mask: ''
-    remove: ".elementor-widget-slider_revolution\n.e-n-carousel.swiper\n.swiper-pagination"
-    isolate: .elementor-background-video-container
+    mask: ".elementor-widget-slider_revolution\n.e-n-carousel.swiper\n.swiper-pagination"
+    remove: .elementor-background-video-container
     delay: 60
     scroll: true
     headers:
@@ -29,9 +28,14 @@ advanced:
     custom_css: ".menu-item .elementor-item:after {\n\tbackground-color: transparent !important;\n}"
     mock_content:
         - { selector: '', type: title }
+    sensitivity: 15
+    night_mode: false
+    retina_images: false
     performance:
         workers_production: 30
         workers_nonproduction: 10
         workers_production_delay: 0
         workers_nonproduction_delay: 0
     stabilize: true
+proxy: false
+type: multiple-sites
