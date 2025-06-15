@@ -21,13 +21,11 @@ advanced:
     remove: .elementor-background-video-container
     delay: 60
     scroll: true
-    headers:
-        - { header: '', value: '' }
+    headers: {  }
     cookies: ''
     custom_js: ''
     custom_css: ".menu-item .elementor-item:after {\n\tbackground-color: transparent !important;\n}"
-    mock_content:
-        - { selector: '', type: title }
+    mock_content: {  }
     sensitivity: 15
     night_mode: false
     retina_images: false
